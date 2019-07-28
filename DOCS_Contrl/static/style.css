@@ -1,9 +1,9 @@
-/* fallback */
+@import url('https://fonts.googleapis.com/css?family=Lato:700|Roboto&display=swap');/* fallback */
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
-  src: url(/static/flUhRq6tzZclQEJ-Vdg-IuiaDsNc.woff2) format('woff2');
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans') format('woff2');
 }
 
 .material-icons {
@@ -21,3 +21,4 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
+

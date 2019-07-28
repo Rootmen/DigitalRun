@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>МОС - Агрегатор</title>
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&amp;lang=ru" />
     <link  type="text/css" rel="stylesheet" href="/static/materialize/css/materialize.min.css"  media="screen,projection"/>
     <script src="/static/jquery-3.4.1.min.js"></script>
     <script src="/static/core.js"></script>
@@ -13,10 +14,9 @@
 <div style="width:100%;height:100%;position:absolute;top:0;left:0;display:flex;flex-direction:column;align-items:stretch;min-width:500px;min-height:500px;"
      class="main_container">
     <div style="flex: 0 0 35px;display:flex;flex-direction:row;align-items:stretch;" class="main_header">
-        <div style="flex: 1 1 1px;" class="header_hover"><p style="padding-left: 25px;margin-top:8px;">МОС -
-            Агрегатор</p></div>
+        <div style="flex: 1 1 1px;display: flex;flex-direction: row;" class="header_hover"><p style="padding-left: 25px;margin-top:8px;color:#de001a;flex: 0 0 25px">МОС </p><p style="margin-top:8px;color:white"> - Агрегатор</p></div>
         <div style="flex: 0 0 220px;" class="header_hover">
-            <div class="button_kab header_hover waves-effect waves-light btn" style="margin:auto;width:100%;height:100%;" id="lkbutton"><p style="margin:0;">
+            <div class="button_kab header_hover waves-effect waves-light btn" style="margin:auto;width:100%;height:100%;" id="lkbutton"><p style="margin:0;padding-left: 2px;">
                 Личный кабинет</p></div>
         </div>
     </div>
@@ -31,18 +31,23 @@
 </body>
 <style>
     .main_header {
-        background-color: #1e3685;;
+        background-color: #0e488c;
         overflow: hidden;
         color: white;
         text-align: left;
         vertical-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+    p {
+        font-family: 'Lato', sans-serif;
     }
 
     .header_hover:hover {
-        background-color: #2344a4;
+        background-color: #042f66;
     }
 
     .button_kab {
+            font-family: 'Roboto', sans-serif;
         background-color: #1e3685;;
         overflow: hidden;
         color: white;
